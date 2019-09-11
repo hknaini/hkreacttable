@@ -12,6 +12,7 @@ class Hkreacttable extends Component {
             <Hktable  
             tableData={this.props.tableData}
             tableColumns={this.props.tableColumns}
+            tableColumnTypes={this.props.tableColumnTypes}
             ></Hktable>
             </div>
         );
